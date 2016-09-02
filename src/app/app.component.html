@@ -1,0 +1,8 @@
+<div class="wrapper darkerBg">
+  <app-prod-switch></app-prod-switch>
+  <app-top-nav></app-top-nav>
+  <div id="virtualsports" style="display: ">
+    <app-video></app-video>
+    <app-match *ngFor="let item1 of getMatchData()" [item]="item1"></app-match>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+    <div class="topNav" (click)="test()">
+      <div class="balance">
+        <h2 *ngIf="show">Hello Noah!</h2>
+        <h2>{{showText()}}</h2>
+      </div>
+      <div class="myBets">
+        <span>My Bets</span>
+        <span id="RunningBetCount">0</span>
+        <span id="SettledBetCount">0</span>
+      </div>
+      <div class="menu"><a href="/Home/Menu">Menu</a></div>
+    </div>
